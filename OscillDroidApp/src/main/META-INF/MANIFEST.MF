@@ -1,0 +1,96 @@
+Manifest-Version: 1.0
+Created-By: 1.6.0_26 (Sun Microsystems Inc.)
+
+Name: assets/dawn_cur.png
+SHA1-Digest: m+pGFOdH2K9q8kJEy5XwgyUjUmE=
+
+Name: assets/panmenu.png
+SHA1-Digest: 0KjSYY1E8jJGb2dsRCiewNA84Ho=
+
+Name: assets/setting.png
+SHA1-Digest: 9YyQ3Q5akZWh/V2BZuMWL2roj68=
+
+Name: .project
+SHA1-Digest: PCdxLOME44zwchGi7xFFq5DvMOY=
+
+Name: resources.arsc
+SHA1-Digest: Bmg+kTc7rJ5IvgoGYxCcv+vnp/k=
+
+Name: assets/left_cur.png
+SHA1-Digest: O6H2ceqPqXNMTePVSOUhXm/d95o=
+
+Name: assets/icon.png
+SHA1-Digest: 6qLqI9BnqEwqdEmeqr6p36U4l5A=
+
+Name: assets/right_cur.png
+SHA1-Digest: WFuhLyvG7RxPisDTH3e8qUEGl4M=
+
+Name: AndroidManifest.xml
+SHA1-Digest: 8a3pdxVC/5WuC4RW3rjnR++U/s8=
+
+Name: .classpath
+SHA1-Digest: z2hG5Oydj4dlqEZR3QZFkFm4Iwg=
+
+Name: assets/pn.png
+SHA1-Digest: k55z0xWxTvdulx6jjLxfC6ixb0E=
+
+Name: assets/color.png
+SHA1-Digest: 4+F03+x2iQQgpDTj+5Uk/RDgm5U=
+
+Name: assets/dlg.png
+SHA1-Digest: kOTsaKnvOe8UPOuhE5FRYF0Z5jc=
+
+Name: assets/sidebar.png
+SHA1-Digest: xnGm7cTLhF46WhvtMt5a45YGZOE=
+
+Name: res/xml/device_filter.xml
+SHA1-Digest: 9+4CEkfUmXWAJfQ1cyr4H2SIoM4=
+
+Name: assets/it.bal
+SHA1-Digest: xkkNOkfS9Xz2dDdxscGWv4kc8Fo=
+
+Name: assets/recton.png
+SHA1-Digest: kCy/Us3izfioSL/OrTpCSm/3cC0=
+
+Name: assets/bluetooth.png
+SHA1-Digest: kA2mQPBqvK0OhH/Y9PfsYL++piM=
+
+Name: assets/about.png
+SHA1-Digest: AyjuYrknuRTxTONpvydTxeE5ddM=
+
+Name: assets/menu.png
+SHA1-Digest: QUiH+GqmPDk/+B1FMuVXfUbVKb4=
+
+Name: assets/usb.png
+SHA1-Digest: I9Pdg8GIrgEzEcUI4uJMTTrhHe0=
+
+Name: classes.dex
+SHA1-Digest: KrWGY/WJHh1sUaFKL/Ywnm0X7L8=
+
+Name: assets/rectoff.png
+SHA1-Digest: R9FUYeztLpOFtgu4oSqWjFW/a6s=
+
+Name: assets/minus.png
+SHA1-Digest: T+u8rY9i3b2c5Ct7EVAtXO4C+jA=
+
+Name: assets/pos.png
+SHA1-Digest: XUJa4dkrUQzyiaTwurOJ4Aiv3iA=
+
+Name: assets/left_menu.png
+SHA1-Digest: Boue3migF3iAey+J49W3ug4+1qc=
+
+Name: res/drawable/icon.png
+SHA1-Digest: vzkfILyRenN9u8Vye0QBFdAHgwc=
+
+Name: assets/plus.png
+SHA1-Digest: iV3n7XM+fLFAq+Kz/S111EoGKU4=
+
+Name: assets/off.png
+SHA1-Digest: eWJiuRiMUOxiKx6MZ7KWBnoYGlU=
+
+Name: assets/exit.png
+SHA1-Digest: LQLPjOKzWwHq0LZp3S2myL+JTAU=
+
+Name: assets/neg.png
+SHA1-Digest: AigZrsUdnyNEkNKkBCFVfYDpJcs=
+
