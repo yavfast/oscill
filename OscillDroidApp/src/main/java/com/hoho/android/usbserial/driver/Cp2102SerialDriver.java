@@ -78,12 +78,38 @@ public class Cp2102SerialDriver extends CommonUsbSerialDriver {
         this.mConnection.close();
     }
 
+    private static String bytesToHexStr(byte[] bytes, int length) {
+        StringBuilder sb = new StringBuilder(length * 3);
+        String hexByte;
+        byte b;
+        for (int idx = 0; idx < length; idx++) {
+            b = bytes[idx];
+            hexByte = Integer.toHexString(b & 0xff);
+            if (hexByte.length() == 1) {
+                sb.append('0');
+            }
+            sb.append(hexByte).append(' ');
+        }
+        return sb.toString();
+    }
+
+    private static String bytesToStr(byte[] bytes, int length) {
+        StringBuilder sb = new StringBuilder(length);
+        byte b;
+        for (int idx = 0; idx < length; idx++) {
+            b = bytes[idx];
+            sb.append((char)b).append(' ');
+        }
+        return sb.toString();
+    }
+
     public int read(byte[] dest, int timeoutMillis) throws IOException {
         synchronized (mReadBufferLock) {
             int numBytesRead = mConnection.bulkTransfer(mReadEndpoint, mReadBuffer, Math.min(dest.length, mReadBuffer.length), timeoutMillis);
-            if (numBytesRead < 0) {
+            if (numBytesRead <= 0) {
                 return 0;
             }
+            Log.i(TAG, "Read from USB: " + bytesToHexStr(dest, numBytesRead));
             System.arraycopy(mReadBuffer, 0, dest, 0, numBytesRead);
             return numBytesRead;
         }
@@ -94,6 +120,7 @@ public class Cp2102SerialDriver extends CommonUsbSerialDriver {
         byte[] writeBuffer;
         int amtWritten;
         int offset = 0;
+        Log.i(TAG, "Write to USB: " + bytesToHexStr(src, src.length) + " [" + bytesToStr(src, src.length) + "]");
         while (offset < src.length) {
             synchronized (mWriteBufferLock) {
                 writeLength = Math.min(src.length - offset, mWriteBuffer.length);
